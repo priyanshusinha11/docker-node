@@ -11,7 +11,7 @@ COPY package-lock.json package-lock.json
 
 RUN npm install
 
-COPY main.js main.js
+COPY . .
 
 
 
